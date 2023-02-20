@@ -65,7 +65,51 @@ section.places article h2{
 .information .number_bathrooms{
     background-image: url("../images/icon_bath.png");
 }
-.amenities h2{
+
+div.amenity ul li{
+    background-repeat: no-repeat;
+    height: 25px;
+    background-size: contain;
+    padding-left: 45px;
+    line-height: 25px;
+}
+div.amenity ul li.tv{
+    background-image: url("../images/icon_tv.png");
+}
+div.amenity ul li.pet{
+    background-image: url("../images/icon_pets.png");
+}
+div.amenity ul li.wifi{
+    background-image: url("../images/icon_wifi.png");
+}
+
+section.places article .amenity{
+    display: flex;
+    flex-direction: column;
+}
+section.places article .amenity h2{
     font-size: 16px;
-    border-bottom: 1px solid #DDDDDD; 
+    border-bottom: 1px solid #DDDDDD;
+    text-align: left;
+}
+section.places article .reviews{
+    margin-top: 40px;
+}
+section.places article .reviews h2{
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: left;
+}
+section.places article .reviews ul{
+    padding-left: 3px;
+}
+section.places article .reviews ul li{
+    margin-bottom: 15px;
+}
+section.places article .reviews ul li h3{
+    font-size: 14px;
+    line-height: 4px;
+}
+section.places article .reviews ul li p{
+    font-size: 12px;
 }
