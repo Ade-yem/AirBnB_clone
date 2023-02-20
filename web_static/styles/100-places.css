@@ -17,8 +17,6 @@ section.places article{
     border-radius: 4px;
     position: relative;
     display: inline-block;
-    /* text-align: center; */
-    /* align-items: flex-start; */
 }
 section.places article h2{
     font-size: 30px;
@@ -43,7 +41,7 @@ section.places article h2{
 .information{
     height: 80px;
     border-top: 1px solid #DDDDDD;
-    border-bottom: 1px solid #DDDDDD;
+    /* border-bottom: 1px solid #DDDDDD; */
     margin: 10px auto;
     display: flex;
     justify-content: space-around;
@@ -66,4 +64,8 @@ section.places article h2{
 }
 .information .number_bathrooms{
     background-image: url("../images/icon_bath.png");
+}
+.amenities h2{
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD; 
 }
